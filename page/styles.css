@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px; /* Remove scrollbar space */
+    background: transparent; /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #ff0000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: "Staatliches", cursive;
+    letter-spacing: 0.3rem;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header .title {
+    margin-bottom: 2rem;
+}
+header .group-members h3 {
+    color: red;
+}
+header .project-links {
+    margin-top: 4rem;
+}
+header .project-links a {
+    margin-right: 2rem;
+}
+header .project-links a:last-child {
+    margin-right: 0rem;
+}
+.ivy {
+    color: green;
+}
+main {
+    font-family: "Raleway", sans-serif;
+}
+main section {
+    width: 100%;
+    height: 100vh;
+    font-size: 1.6rem;
+    padding: 4rem;
+}
+main .intro {
+    width: 100%;
+    height: 105vh;
+    display: flex;
+}
+main .intro .text {
+    flex: 1;
+    height: 100vh;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 15%;
+}
+main .intro .text h2 {
+    margin-bottom: 2rem;
+}
+main .intro .image {
+    flex: 1;
+    height: 100vh;
+    background: url(./assets/fallguys.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+footer {
+    font-family: "Raleway", sans-serif;
+}
+main .dataset {
+    width: 100%;
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 3rem;
+}
+main .dataset .texttwo {
+    flex: 1;
+    height: 100vh;
+    padding: 2rem;
+    text-align: center;
+}
+main .dataset .imagetwo {
+    flex: 1;
+    height: 90vh;
+    background: url(./assets/videogames.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.analyze {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.analyze .left {
+    flex: 1;
+}
+.analyze .right {
+    flex: 1;
+}

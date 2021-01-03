@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ivysaur</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="title">
+            <h1>Data Science Project</h1>
+            <h2>Video Game Sales Analysis</h2>
+            <h2 class="ivy">Ivysaur</h2>
+        </div>
+        <div class="group-members">
+            <h3>Group Members</h3>
+            <h4>Mert Uyğur 201180753</h4>
+            <h4>Umut Can Demirkaynak 181180022</h4>
+            <h4>Muhammed Murat Göktaş 171180029</h4>
+        </div>
+        <div class="project-links">
+            <a href="https://github.com/Mert18/data-analysis-vg-ivysaur" target="_blank">github</a>
+            <a href="https://www.kaggle.com/gregorut/videogamesales" target="_blank">dataset</a>
+        </div>
+
+    </header>
+
+    <main>
+        <section class="intro">
+            <div class="text">
+                <h2>Introduction</h2>
+                <p>It is obvious that video games have been a big part of our lives since they began appearing. Video
+                    games
+                    are somewhere we find friends, we spend our leisure times and a huge part of <a
+                        href="https://www.fairplanet.org/dossier/escape/escaping-in-and-from-culture/"
+                        target="_blank">escape culture.</a> </p>
+                <br>
+                <p>Novadays, not just children but adults also love playing games. Since parents realized the safety of
+                    streets that they had grown is now questionable, they prefer their children to stay at home and do
+                    whatever they do. Escaping this problems and many other made the gaming community bigger and more
+                    heteregenous.</p>
+            </div>
+            <div class="image">
+
+            </div>
+
+        </section>
+
+        <section class="dataset">
+            <div class="imagetwo">
+
+            </div>
+            <div class="texttwo">
+                <h2>About the dataset</h2>
+                <br>
+                <p>This dataset we found on kaggle consists more than 15000 record of games between 1980 and 2016.</p>
+                <br>
+                <p>Dataset includes 11 different property of these games which are:</p>
+                <p>Rank, Name, Platform, Year, Genre, Publisher, NA_Sales, EU_Sales, JP_Sales, Other_Sales, Global_Sales
+                </p>
+                <br>
+                <p>As you can see, dataset holds important records that we can work on and find solutions to big
+                    problems.</p>
+                <br>
+                <h3>Our Goal</h3>
+                <p>There are numerous goals for us to find out in this dataset. We can list them roughly as:</p>
+                <br>
+                <p>1- Finding investment solutions to big companies as finding the value of games in different parts of
+                    the world.</p>
+                <p>2- Analyzing North America, Europe, Japan,Global and figuring out what kind of genres they like
+                    or hate.</p>
+                <p>3- We will witness the rise of the game industry and be pointing out the importance in entertainment
+                    industry.</p>
+                <p>Besides, as you will see, we will derive numereous other solutions to certain problems as we move.
+                </p>
+            </div>
+        </section>
+
+        <section class="exp">
+            <h2>Explotary Data Analysis</h2>
+            <br>
+            <p>As we stated before, our dataset records have 11 different properties and we want to have closer look at
+                them here.</p>
+            <br>
+            <ul>
+                <li>Rank: int64</li>
+                <li>Name: object</li>
+                <li>Platform: object</li>
+                <li>Year: float64</li>
+                <li>Genre: object</li>
+                <li>Publisher: object</li>
+                <li>NA_Sales: float64</li>
+                <li>EU_Sales: float64</li>
+                <li>JP_Sales: float64</li>
+                <li>Other_Sales: float64</li>
+                <li>Global_Sales: float64</li>
+            </ul>
+            <br>
+            <p>Our dataset had 16598 records but for numerous reasons, we had to do some data cleaning swiping out the
+                records that can destroy our analysis. At the end of the day, we will be inspecting 16291 records and 11
+                different property of them.</p>
+            <br>
+            <p>Beginning of our explotary data analysis, it would be really cool if we could have a correlation map.</p>
+            <br>
+            <h4>Correlation between properties</h4>
+            <div class="analyze">
+                <div class="left">
+                    <img id="cor" src="assets/corr.png" alt="correlation map" />
+                </div>
+                <div class="right">
+                    <p>Inspecting this table, we can derive that NA_Sales and EU_Sales has a significant effect on
+                        Global_Sales.
+                        Also these two region has an impact on each other so we cannot ignore this close relationship.
+                </div>
+            </div>
+
+
+
+            </p>
+            <br>
+            <br>
+            <h4>Popularity</h4>
+            <div class="analyze">
+                <div class="left">
+                    Having a closer look on the journey of games' popularity.
+                </div>
+                <div class="right">
+                    <img src="./assets/pop.png" alt="general look of popularity">
+                </div>
+            </div>
+
+            <div class="analyze">
+                <div class="left">
+
+                </div>
+                <div class="right">
+
+                </div>
+            </div>
+
+
+
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+
+</body>
+
+</html>
