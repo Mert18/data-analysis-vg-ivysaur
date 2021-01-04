@@ -61,6 +61,26 @@ header .project-links a {
 header .project-links a:last-child {
     margin-right: 0rem;
 }
+
+header .logo {
+    width: 50%;
+    height: 50%;
+    background: url("assets/ivyfalse.svg") no-repeat;
+    background-size: contain;
+    display: inline-block;
+    position: absolute;
+    left: 5%;
+    transition: all 0.5s;
+}
+header .logo:hover {
+    background: url("assets/ivytrue.svg") no-repeat;
+    width: 50%;
+    height: 50%;
+    background-size: contain;
+    display: inline-block;
+    transition: all 0.5s;
+}
+
 .ivy {
     color: green;
 }
@@ -71,8 +91,8 @@ main section {
     width: 100%;
     height: 100vh;
     font-size: 1.6rem;
-    padding: 4rem;
 }
+
 main .intro {
     width: 100%;
     height: 105vh;
@@ -84,17 +104,27 @@ main .intro .text {
     padding: 2rem;
     text-align: center;
     margin-top: 15%;
+    position: absolute;
+    color: white;
 }
 main .intro .text h2 {
     margin-bottom: 2rem;
 }
 main .intro .image {
-    flex: 1;
-    height: 100vh;
-    background: url(./assets/fallguys.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+main .into .image video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 footer {
@@ -121,11 +151,15 @@ main .dataset .imagetwo {
     background-size: contain;
     background-position: center;
 }
+.exp {
+    padding: 4rem;
+}
 
 .analyze {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 4rem;
 }
 .analyze .left {
     flex: 1;
