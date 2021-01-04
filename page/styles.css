@@ -5,6 +5,7 @@
 html {
     overflow: scroll;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 ::-webkit-scrollbar {
     width: 0px; /* Remove scrollbar space */
@@ -20,13 +21,23 @@ html {
     padding: 0;
     box-sizing: border-box;
 }
+.fxdbtns {
+    position: fixed;
+    z-index: 999;
+    color: green;
+}
+.fxdbtns a {
+    font-size: 3rem;
+    border-radius: 20%;
+    background-color: white;
+}
 
 header {
+    background-color: black;
     font-family: "Staatliches", cursive;
     letter-spacing: 0.3rem;
     width: 100%;
     height: 100vh;
-    background-color: black;
     color: white;
     font-size: 2rem;
     display: flex;
@@ -121,4 +132,29 @@ main .dataset .imagetwo {
 }
 .analyze .right {
     flex: 1;
+}
+
+@media screen and (max-width: 800px) {
+    main .intro {
+        display: flex;
+        flex-direction: column;
+    }
+    main .intro .image {
+        width: 100%;
+    }
+    main .dataset {
+        display: flex;
+        flex-direction: column;
+        height: inherit;
+    }
+    img {
+        display: block;
+        object-fit: contain;
+        width: 100%;
+        height: auto;
+    }
+    .analyze {
+        display: flex;
+        flex-direction: column;
+    }
 }
