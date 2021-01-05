@@ -1,0 +1,67 @@
+body {
+    background: url(./assets/bg3.svg);
+    display: flex;
+    justify-content: center;
+}
+
+.quest {
+    width: 80%;
+    padding: 3rem;
+    background-color: #a94c57ff;
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    -webkit-box-shadow: 10px 10px 65px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 65px -6px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 65px -6px rgba(0,0,0,0.75);
+}
+.wrong {
+    background-color: red;
+}
+.correct {
+    background-color: green;
+}
+.image {
+    background: url(./pikfalse.svg);
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 350px;
+    margin-right:5rem;
+}
+.imagetrue {
+    background: url(./piktrue.svg);
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 350px;
+    margin-right:5rem;
+}
+
+.text {
+    font-size: 2rem;
+    color: #d7ede5ff;
+}
+.text button {
+    background: #438a89ff;
+    color: white;
+    border: none;
+    width: 10rem;
+    height: 5rem;
+    border-radius: 0.5rem;
+}
+.text button:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+#next {
+    background: black;
+    border-radius: 0.4rem;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 2rem;
+    color: white;
+    height: 4rem;
+    margin: 2rem;
+}
