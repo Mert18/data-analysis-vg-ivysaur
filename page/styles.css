@@ -33,7 +33,11 @@ html {
 }
 
 header {
-    background-color: black;
+    background: url(./assets/bg2.svg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: "Staatliches", cursive;
     letter-spacing: 0.3rem;
     width: 100%;
@@ -44,16 +48,29 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: all .5s;
 }
 
 header .title {
     margin-bottom: 2rem;
 }
+.text-headerr {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    display: inline-block;
+    background-image: linear-gradient(to right,#d56b84ff,rgb(52, 110, 116));
+    -webkit-background-clip: text;
+    color: transparent;
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+    font-weight: 700;
+}
 header .group-members h3 {
-    color: red;
+    color: rgba(97, 43, 97, 0.993);
 }
 header .project-links {
     margin-top: 4rem;
+    animation: moveInBottom 3s;
 }
 header .project-links a {
     margin-right: 2rem;
@@ -62,31 +79,58 @@ header .project-links a:last-child {
     margin-right: 0rem;
 }
 
-header .logo {
-    width: 50%;
-    height: 50%;
+.logo {
+    width: 40%;
+    height: 40%;
     background: url("assets/ivyfalse.svg") no-repeat;
     background-size: contain;
-    display: inline-block;
-    position: absolute;
-    left: 5%;
-    transition: all 0.5s;
+    background-position: center;
+    animation: moveInTop 2s;
 }
-header .logo:hover {
+@keyframes moveInTop{
+    0%{
+        opacity:0;
+        transform: translateY(-300px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+@keyframes moveInBottom {
+    0%{
+        opacity: 0;
+        transform: translateY(300px);
+    }
+    100% {
+        opacity:1;
+        transform: translate(0);
+    }
+}
+.logotrue {
     background: url("assets/ivytrue.svg") no-repeat;
-    width: 50%;
-    height: 50%;
+    width: 42%;
+    height: 42%;
     background-size: contain;
-    display: inline-block;
     transition: all 0.5s;
+    background-position: center;
 }
 
-.ivy {
-    color: green;
+.text-headerr2 {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    background-image: linear-gradient(to right,rgb(209, 25, 25),rgb(243, 14, 232));
+    -webkit-background-clip: text;
+    color: transparent;
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+    font-weight: 700;
 }
 main {
     font-family: "Raleway", sans-serif;
+    
 }
+
 main section {
     width: 100%;
     height: 100vh;
@@ -95,8 +139,9 @@ main section {
 
 main .intro {
     width: 100%;
-    height: 105vh;
+    height: 100vh;
     display: flex;
+    
 }
 main .intro .text {
     flex: 1;
@@ -133,9 +178,15 @@ footer {
 main .dataset {
     width: 100%;
     display: flex;
-    background-color: black;
     color: white;
     padding: 3rem;
+    height: 105vh;
+    background: url(/assets/bg3.svg);
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 main .dataset .texttwo {
     flex: 1;
@@ -153,19 +204,62 @@ main .dataset .imagetwo {
 }
 .exp {
     padding: 4rem;
+    background: url(./assets/bg3.svg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.exp ul {
+    list-style: none;
 }
 
 .analyze {
+    margin: 5rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 4rem;
 }
 .analyze .left {
     flex: 1;
 }
 .analyze .right {
     flex: 1;
+}
+.centered-h3 {
+    text-align: center;
+    margin:2rem 0;
+}
+.image-container {
+    width: 100%;
+    background: linear-gradient(to right bottom, rgba(255, 0, 0, 0.267), blue);
+    height: 60%;
+}
+.centered-image {
+    position: absolute;
+    left: 35%;
+    height: 50%;
+    width: 40%;
+    background: url(./assets/dsfalse.svg);
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+}
+.dstrue {
+    position: absolute;
+    left: 35%;
+    height: 50%;
+    width: 40%;
+    background: url(./assets/dstrue.svg);
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+}
+.platforms {
+    width: 100%;
+    padding: 4rem;
+}
+.games {
+    width: 100%;
+    padding: 4rem;
 }
 
 @media screen and (max-width: 800px) {
