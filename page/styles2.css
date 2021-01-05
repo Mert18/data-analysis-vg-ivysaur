@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 0px; /* Remove scrollbar space */
+    background: transparent; /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #ff0000;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.6rem;
+    background: url(./assets/bg3.svg);
+}
+
+section {
+    margin: 4rem;
+    border-radius: 3rem;
+    padding: 2rem;
+    -webkit-box-shadow: 10px 10px 49px -14px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 49px -14px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 49px -14px rgba(0, 0, 0, 0.75);
+}
+
+.nav {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    text-align: center;
+    margin: 2rem;
+}
+.analyze p {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.analyze {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
+    justify-content: center;
+}
+.left {
+    padding: 1rem;
+}
+.right {
+    padding: 1rem;
+}
+
+.soloimage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#solotext {
+    text-align: center;
+    margin: 2rem;
+}

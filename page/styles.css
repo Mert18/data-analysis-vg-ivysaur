@@ -21,16 +21,6 @@ html {
     padding: 0;
     box-sizing: border-box;
 }
-.fxdbtns {
-    position: fixed;
-    z-index: 999;
-    color: green;
-}
-.fxdbtns a {
-    font-size: 3rem;
-    border-radius: 20%;
-    background-color: white;
-}
 
 header {
     background: url(./assets/bg2.svg);
@@ -48,7 +38,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition: all .5s;
+    transition: all 0.5s;
 }
 
 header .title {
@@ -58,7 +48,7 @@ header .title {
     text-transform: uppercase;
     font-size: 1.8rem;
     display: inline-block;
-    background-image: linear-gradient(to right,#d56b84ff,rgb(52, 110, 116));
+    background-image: linear-gradient(to right, #d56b84ff, rgb(52, 110, 116));
     -webkit-background-clip: text;
     color: transparent;
     padding: 0.5rem 0.5rem;
@@ -87,9 +77,9 @@ header .project-links a:last-child {
     background-position: center;
     animation: moveInTop 2s;
 }
-@keyframes moveInTop{
-    0%{
-        opacity:0;
+@keyframes moveInTop {
+    0% {
+        opacity: 0;
         transform: translateY(-300px);
     }
     100% {
@@ -98,12 +88,12 @@ header .project-links a:last-child {
     }
 }
 @keyframes moveInBottom {
-    0%{
+    0% {
         opacity: 0;
         transform: translateY(300px);
     }
     100% {
-        opacity:1;
+        opacity: 1;
         transform: translate(0);
     }
 }
@@ -119,7 +109,7 @@ header .project-links a:last-child {
 .text-headerr2 {
     text-transform: uppercase;
     font-size: 1.8rem;
-    background-image: linear-gradient(to right,rgb(209, 25, 25),rgb(243, 14, 232));
+    background-image: linear-gradient(to right, rgb(209, 25, 25), rgb(243, 14, 232));
     -webkit-background-clip: text;
     color: transparent;
     padding: 0.5rem 0.5rem;
@@ -128,7 +118,6 @@ header .project-links a:last-child {
 }
 main {
     font-family: "Raleway", sans-serif;
-    
 }
 
 main section {
@@ -141,7 +130,6 @@ main .intro {
     width: 100%;
     height: 100vh;
     display: flex;
-    
 }
 main .intro .text {
     flex: 1;
@@ -183,16 +171,16 @@ main .dataset {
     height: 105vh;
     background: url(/assets/bg3.svg);
     background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 main .dataset .texttwo {
     flex: 1;
     height: 100vh;
     padding: 2rem;
     text-align: center;
+    color: black;
 }
 main .dataset .imagetwo {
     flex: 1;
@@ -214,52 +202,9 @@ main .dataset .imagetwo {
     list-style: none;
 }
 
-.analyze {
-    margin: 5rem 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.analyze .left {
-    flex: 1;
-}
-.analyze .right {
-    flex: 1;
-}
 .centered-h3 {
     text-align: center;
-    margin:2rem 0;
-}
-.image-container {
-    width: 100%;
-    background: linear-gradient(to right bottom, rgba(255, 0, 0, 0.267), blue);
-    height: 60%;
-}
-.centered-image {
-    position: absolute;
-    left: 35%;
-    height: 50%;
-    width: 40%;
-    background: url(./assets/dsfalse.svg);
-    background-repeat: no-repeat;
-    transition: all 0.5s;
-}
-.dstrue {
-    position: absolute;
-    left: 35%;
-    height: 50%;
-    width: 40%;
-    background: url(./assets/dstrue.svg);
-    background-repeat: no-repeat;
-    transition: all 0.5s;
-}
-.platforms {
-    width: 100%;
-    padding: 4rem;
-}
-.games {
-    width: 100%;
-    padding: 4rem;
+    margin: 2rem 0;
 }
 
 @media screen and (max-width: 800px) {
@@ -285,4 +230,13 @@ main .dataset .imagetwo {
         display: flex;
         flex-direction: column;
     }
+}
+
+#next {
+    background: black;
+    border-radius: 0.4rem;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 2rem;
+    color: white;
 }
