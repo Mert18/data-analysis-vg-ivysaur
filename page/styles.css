@@ -143,6 +143,9 @@ main .intro .text {
 main .intro .text h2 {
     margin-bottom: 2rem;
 }
+main .intro .text a {
+    color: white;
+}
 main .intro .image {
     position: relative;
     top: 0;
