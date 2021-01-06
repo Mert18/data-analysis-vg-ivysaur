@@ -169,7 +169,7 @@ main .dataset {
     color: white;
     padding: 3rem;
     height: 105vh;
-    background: url(/assets/bg3.svg);
+    background: url(/images/bg4.svg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -192,7 +192,7 @@ main .dataset .imagetwo {
 }
 .exp {
     padding: 4rem;
-    background: url(./assets/bg3.svg);
+    background: url(./images/bg4.svg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -240,6 +240,3 @@ main .dataset .imagetwo {
     font-size: 2rem;
     color: white;
 }
-
-
-
