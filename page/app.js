@@ -16,7 +16,7 @@ x3 = document.querySelector('#three');
 x4 = document.querySelector('#four');
 
 image = document.querySelector('.image');
-sect = document.querySelector('.quest');
+sect = document.querySelector('.quest-wrapper');
 
 x1.addEventListener('click', () => {
     sect.classList.add('wrong')
@@ -44,3 +44,5 @@ x4.addEventListener('click', () => {
     }, 1000)
     x4.style.display = "none";
 })
+
+

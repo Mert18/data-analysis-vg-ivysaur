@@ -21,11 +21,30 @@ html {
     padding: 0;
     box-sizing: border-box;
 }
+.scroll {
+    position: fixed;
+}
+.scroll button {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: none;
+    margin: 0.5rem;
+    outline: none;
+}
+.scroll button:hover {
+    cursor: pointer;
+}
+.up {
+    background-color: #00CA4E;
+    /* green FF605C*/
+}
+.down{
+    background-color: #FFBD44;
+}
 body {
     margin: 4rem;
-    -webkit-box-shadow: 10px 10px 49px -14px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 49px -14px rgba(0, 0, 0, 0.75);
-    box-shadow: 10px 10px 49px -14px rgba(0, 0, 0, 0.75);
+    background: url(images/bg4.svg);
 }
 main:first-child {
     margin-top: 3rem;
@@ -40,7 +59,6 @@ header {
     border-radius: 3rem;
     font-family: "Staatliches", cursive;
     letter-spacing: 0.3rem;
-    width: 100%;
     height: 100vh;
     color: white;
     font-size: 2rem;
@@ -49,6 +67,10 @@ header {
     justify-content: center;
     align-items: center;
     transition: all 0.5s;
+
+    -webkit-box-shadow: 10px 10px 49px -14px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 49px -14px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 49px -14px rgba(0, 0, 0, 0.75);
 }
 
 header .title {
@@ -135,6 +157,11 @@ main section {
     height: 100vh;
     font-size: 1.6rem;
     margin: 3rem 0;
+    border-radius: 3rem;
+
+    -webkit-box-shadow: 10px 10px 49px -14px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 49px -14px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 49px -14px rgba(0, 0, 0, 0.75);
 }
 
 main .intro {
@@ -150,12 +177,9 @@ main .intro {
     background-size: cover;
 }
 main .intro .text {
-    flex: 1;
     height: 100vh;
-    padding: 2rem;
     text-align: center;
     margin-top: 15%;
-    position: absolute;
     color: white;
 }
 main .intro .text h2 {
@@ -170,11 +194,7 @@ main .intro .image {
     color: white;
     padding: 3rem;
     height: 105vh;
-    background: url(./assets/bg2.svg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    border-radius: 3rem;
 }
 
 footer {
@@ -201,11 +221,13 @@ main .dataset .texttwo {
 }
 main .dataset .imagetwo {
     flex: 1;
-    height: 90vh;
+    height: 80vh;
+    padding: 3rem;
     background: url(./assets/videogames.jpeg);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: contain;
     background-position: center;
+    border-radius: 3rem;
 }
 .exp {
     padding: 4rem;
