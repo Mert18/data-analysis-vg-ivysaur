@@ -6,4 +6,5 @@ buttonDown.addEventListener('click', () => {
 
 buttonUp.addEventListener('click', () => {
     window.scrollBy(0, window.innerHeight + 100);
-}) 
+})
+

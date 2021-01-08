@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-weight: 600;
 }
 
 html {
@@ -19,8 +20,6 @@ html {
 ::-webkit-scrollbar-thumb {
     background: #ff0000;
 }
-
-
 
 body {
     font-family: "Raleway", sans-serif;
@@ -85,5 +84,39 @@ h2 {
     text-decoration: none;
     padding: 1rem;
     font-size: 2rem;
+    color: white;
+}
+
+
+
+.options {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.lir {
+    color: yellow;
+}
+.options button {
+    background-color: rgb(175, 23, 23);
+    border: none;
+    border-bottom: 4px solid rgb(34, 30, 30);
+    color: white;
+    height: 4rem;
+    width: 10rem;
+    margin: 1rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.options button:hover {
+    cursor: pointer;
+}
+
+
+.regression p {
+    margin-top: 2rem;
+}
+
+.results {
     color: white;
 }

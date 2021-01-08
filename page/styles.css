@@ -6,6 +6,7 @@ html {
     overflow: scroll;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    font-weight: 600;
 }
 ::-webkit-scrollbar {
     width: 0px; /* Remove scrollbar space */
@@ -175,6 +176,7 @@ main .intro {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-weight: 600;
 }
 main .intro .text {
     height: 100vh;
@@ -186,7 +188,7 @@ main .intro .text h2 {
     margin-bottom: 2rem;
 }
 main .intro .text a {
-    color: white;
+    color: black;
 }
 main .intro .image {
     width: 100%;
@@ -211,6 +213,7 @@ main .dataset {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-weight: 600;
 }
 main .dataset .texttwo {
     flex: 1;
@@ -221,16 +224,17 @@ main .dataset .texttwo {
 }
 main .dataset .imagetwo {
     flex: 1;
-    height: 80vh;
     padding: 3rem;
-    background: url(./assets/videogames.jpeg);
-    background-size: cover;
+    background: url(./assets/ph.jpeg);
+    background-size: 50%;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 3rem;
 }
 .exp {
     padding: 4rem;
+    font-weight: 600;
+    color: white;
     background: url(./assets/bg2.svg);
     background-attachment: fixed;
     background-position: center;

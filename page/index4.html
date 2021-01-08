@@ -10,6 +10,41 @@
 
 <body>
 
+    <div class="nav">
+        <img src="./images/ivytrue2.svg" alt="ivy2">
+    </div>
+
+    <section class="regression">
+        <h2>Regression</h2>
+        <p>Regression is basically predicting a target value by using independent predictors. We use regression to find a relationship between our values.</p>
+        <p>Linear Regression: Shows the linear relationship between independent value and the dependent value(in this example, region sales and global sales).</p>
+        <p>Random Forest Regression: simply combines multiple decision trees and tries to find the output based on average of these decision trees.</p>
+        <p>Ridge Regression: Is one of the advanced versions of linear regression, it is better for long term predictions.</p>
+        
+        <div class="options">
+            <button id="lir" class="lirr">Linear Regression</button>
+            <button id="rfr" class="rfrr">Random Forest Regression</button>
+            <button id="rr" class="rrr">Ridge Regression</button>
+        </div>
+        <div class="results">
+            <h2 id="t"></h2>
+            <h2 id="tr">Training Accuracy: 0.0000000000000000</h2>
+            <h2 id="te">Testing Accuracy : 0.0000000000000000</h2>
+            <h2 id="r2">r&#178; Score: 0.0000000000000000</h2>
+        </div>
+
+        <p>R-squared is a statistical measure of how close the data are to the fitted regression line.</p>
+        <p>For different regression models, we can see the accuracy and r2 scores above.</p>
+
+    </section>
+
+    <section>
+        Summary
+    </section>
+
+
+    <script src="app3.js"></script>
+
 </body>
 
 </html>
