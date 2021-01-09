@@ -37,14 +37,14 @@ html {
     cursor: pointer;
 }
 .up {
-    background-color: #00CA4E;
+    background-color: #00ca4e;
     /* green FF605C*/
 }
-.down{
-    background-color: #FFBD44;
+.down {
+    background-color: #ffbd44;
 }
 body {
-    margin: 4rem;
+    margin: 0 4rem;
     background: url(images/bg4.svg);
 }
 main:first-child {
