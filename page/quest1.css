@@ -16,6 +16,7 @@ body {
     background: url(./assets/bg3.svg);
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .quest-wrapper {
@@ -78,4 +79,28 @@ body {
     color: white;
     height: 4rem;
     margin-top: 4rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .quest-wrapper {
+        
+    }
+    button {
+        display:block;
+    }
+    .image {
+        background: yellow;
+        max-width: 100%;
+        display: block;
+    }
+    #next {
+        background: black;
+        border-radius: 0.4rem;
+        text-decoration: none;
+        padding: 1rem;
+        font-size: 1rem;
+        color: white;
+        height: 1rem;
+        margin-top: 0rem;
+    }
 }
