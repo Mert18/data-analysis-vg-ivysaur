@@ -15,17 +15,22 @@
   https://docs.conda.io/projects/conda/en/latest/user-guide/install/ with following this guide, you will be installed conda properly.
   
   
-  1.Open your terminal and check if you have conda installed with ```conda -v ```
+  1.Open your terminal and check if you have conda installed with ```conda --v ```
+  
+ ![Screenshot](/images/condav.png)
   
   
   (if you have the project folders, skip this step.)
   2. Clone this repository url, assuming you have git installed on your machine, run ```git clone https://github.com/Mert18/data-analysis-vg-ivysaur.git```
   and with ```cd data-analysis-vg-ivysaur``` open the project folder that you cloned.
-  
+   ![Screenshot](/images/clone.png)
   
   3.In order to create the conda environment with all necessary packages installed, run ```conda env create -f environment.yml```
-  
+   ![Screenshot](/images/condaenvcreate.png)
   
   4.You are successfully installed the environment. Using ```conda activate vgs```, activate the environment.
-  
+   ![Screenshot](/images/condaactivate.png)
   5.Now you can use project. With ```jupyter-notebook```, open the project and start using!
+   ![Screenshot](/images/jupyter-notebook.png)
+   
+   
