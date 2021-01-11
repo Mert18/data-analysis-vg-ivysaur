@@ -120,3 +120,26 @@ h2 {
 .results {
     color: white;
 }
+
+@media screen and (max-width: 800px) {
+}
+
+@media (max-width: 1000px) {
+    .nav {
+
+    }
+    .analyze {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 2rem;
+        justify-content: center;
+    }
+    .soloimage {
+        width: 100%
+    }
+    .platforms {
+        width: 100%;
+    }
+   
+}
