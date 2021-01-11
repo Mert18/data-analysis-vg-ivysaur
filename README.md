@@ -15,7 +15,9 @@
   https://docs.conda.io/projects/conda/en/latest/user-guide/install/ with following this guide, you will be installed conda properly.
   
   
-  1.Open your terminal and check if you have conda installed with ```conda -v ```
+  1.Open your terminal and check if you have conda installed with ```conda --v ```
+  
+  ![Alt text](../images/condav.png?raw=true "Title")
   
   
   (if you have the project folders, skip this step.)
