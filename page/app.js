@@ -1,15 +1,3 @@
-const x = document.querySelector('.centered-image')
-function showup() {
-    x.classList.replace('centered-image', 'dstrue')
-}
-
-const y = document.querySelector('.logo')
-
-function change() {
-    y.classList.replace('logo', 'logotrue')
-}
-
-
 x1 = document.querySelector('#one');
 x2 = document.querySelector('#two');
 x3 = document.querySelector('#three');

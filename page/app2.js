@@ -1,10 +1,10 @@
-const buttonDown = document.querySelector('.down');
-const buttonUp = document.querySelector('.up');
-buttonDown.addEventListener('click', () => {
-    window.scrollBy(0, -window.innerHeight - 100);
-})
+const x = document.querySelector('.centered-image')
+function showup() {
+    x.classList.replace('centered-image', 'dstrue')
+}
 
-buttonUp.addEventListener('click', () => {
-    window.scrollBy(0, window.innerHeight + 100);
-})
+const y = document.querySelector('.logo')
 
+function change() {
+    y.classList.replace('logo', 'logotrue')
+}
