@@ -17,7 +17,7 @@
   
   1.Open your terminal and check if you have conda installed with ```conda --v ```
   
-  ![Alt text](../images/condav.png?raw=true "Title")
+ ![Screenshot](/images/condav.png)
   
   
   (if you have the project folders, skip this step.)
