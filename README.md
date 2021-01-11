@@ -7,6 +7,8 @@
 
   In this project, our goal is to make a proper analysis of video game industry between 1960-2016.  We reproduced the raw data and made some readable and understandable graphs. With the help of the dataset, we found answers to certain questions. I hope you find something useful in the project.
   
+  The dataset we use : https://www.kaggle.com/gregorut/videogamesales
+  
   
   ## Installation
   
