@@ -14,24 +14,72 @@
         <img src="./images/ivytrue2.svg" alt="ivy2">
     </div>
 
+<!--     <div class="soloimage">
+        <img src="./images/reg.png" alt="regression table">
+    </div> -->
+
     <section class="regression">
         <h2>Regression</h2>
-        <p>Regression is basically predicting a target value by using independent predictors. We use regression to find a relationship between our values.</p>
-        <p>Linear Regression: Shows the linear relationship between independent value and the dependent value(in this example, region sales and global sales).</p>
-        <p>Random Forest Regression: simply combines multiple decision trees and tries to find the output based on average of these decision trees.</p>
-        <p>Ridge Regression: Is one of the advanced versions of linear regression, it is better for long term predictions.</p>
+        <p>Regression is basically predicting a target value by using independent predictors. We use regression to find
+            a relationship between our values.</p>
         
-        <div class="options">
-            <button id="lir" class="lirr">Linear Regression</button>
-            <button id="rfr" class="rfrr">Random Forest Regression</button>
-            <button id="rr" class="rrr">Ridge Regression</button>
+        <p><span>Important Note: Regressions are taken as Regional Sales versus Global Sales. So all of the tests below are made with Global Sales numbers.</span></p>
+
+        <h3 class="regtitle">Linear Regression </h3>
+        <p>Shows the linear relationship between independent value and the dependent value(in this
+            example, region sales and global sales).</p>
+            <div class="options">
+                <button id="na" class="lirr">North America</button>
+                <button id="eu" class="rfrr">Europe</button>
+                <button id="jp" class="rrr">Japan</button>
+            </div>
+            <div class="results">
+                <h2 id="t"></h2>
+                <h2 id="tr">Training Accuracy: 0.0000000000000000</h2>
+                <h2 id="te">Testing Accuracy : 0.0000000000000000</h2>
+                <h2 id="r2">r&#178; Score: 0.00</h2>
+            </div>
+        <div class="analyze">
+            <div class="left">
+                <img src="./images/jpreg.png" alt="jp regression">
+            </div>
+            <div class="right">
+                <img src="./images/nareg.png" alt="na regression">
+            </div>
         </div>
-        <div class="results">
-            <h2 id="t"></h2>
-            <h2 id="tr">Training Accuracy: 0.0000000000000000</h2>
-            <h2 id="te">Testing Accuracy : 0.0000000000000000</h2>
-            <h2 id="r2">r&#178; Score: 0.0000000000000000</h2>
-        </div>
+
+        <h3 class="regtitle">Random Forest Regression</h3>
+        <p>Simply combines multiple decision trees and tries to find the output based on
+            average of these decision trees.</p>
+
+            <div class="options">
+                <button id="na1" class="lirr">North America</button>
+                <button id="eu1" class="rfrr">Europe</button>
+                <button id="jp1" class="rrr">Japan</button>
+            </div>
+            <div class="results">
+                <h2 id="t1"></h2>
+                <h2 id="tr1">Training Accuracy: 0.0000000000000000</h2>
+                <h2 id="te1">Testing Accuracy : 0.0000000000000000</h2>
+                <h2 id="r21">r&#178; Score: 0.00</h2>
+            </div>
+
+        <h3 class="regtitle">Ridge Regression</h3>
+        <p>Is one of the advanced versions of linear regression, it is better for long term
+            predictions.</p>
+
+            <div class="options">
+                <button id="na2" class="lirr">North America</button>
+                <button id="eu2" class="rfrr">Europe</button>
+                <button id="jp2" class="rrr">Japan</button>
+            </div>
+            <div class="results">
+                <h2 id="t2"></h2>
+                <h2 id="tr2">Training Accuracy: 0.0000000000000000</h2>
+                <h2 id="te2">Testing Accuracy : 0.0000000000000000</h2>
+                <h2 id="r22">r&#178; Score: 0.00</h2>
+            </div>
+
 
         <p>R-squared is a statistical measure of how close the data are to the fitted regression line.</p>
         <p>For different regression models, we can see the accuracy and r2 scores above.</p>
@@ -40,27 +88,36 @@
 
     <section>
         <h2>Summary</h2>
-        <p>In this analysis, we have inspected the video game sales by Genres, Sales,Platforms and also Regions. There are explicit outcomes.
+        <p>In this analysis, we have inspected the video game sales by Genres, Sales,Platforms and also Regions. There
+            are explicit outcomes.
         </p>
         <br>
-        <p>We saw that Nintendo and Wii has a great market for video games. Also Playstation is pretty consistent in this matter.</p>
+        <p>We saw that Nintendo and Wii has a great market for video games. Also Playstation is pretty consistent in
+            this matter.</p>
         <br>
-        <p>North Americans and Europeans have a similar taste about games. But when it comes the platforms, Wii is a good choice for both, on the other hand, Nintendo is not adequate for Europe. Japan likes Wii and Nintendo, but GB(Game Boy) is the favourite in there.</p>
+        <p>North Americans and Europeans have a similar taste about games. But when it comes the platforms, Wii is a
+            good choice for both, on the other hand, Nintendo is not adequate for Europe. Japan likes Wii and Nintendo,
+            but GB(Game Boy) is the favourite in there.</p>
         <br>
         <p>
-            North America and Global Sales are dependent, so there is a big gaming community, also Europe almost controls the industry.
+            North America and Global Sales are dependent, so there is a big gaming community, also Europe almost
+            controls the industry.
         </p>
         <br>
-        <p>Action games are loved by people and this genre is continuously successful in this industry. Role playing games are in increase and Strategy games have their community.</p>
+        <p>Action games are loved by people and this genre is continuously successful in this industry. Role playing
+            games are in increase and Strategy games have their community.</p>
         <br>
         <p>Using these datas and graphs, we could have many more outcomes.</p>
         <br>
         <br>
-        So in 2021, when it comes to games, it has a great potential. New AAA games have a great community waiting for them. People are waiting 9 years just for a games. As the world changes, many industries be effected by this change. But there is one industry that never will be effected by any kind of threat, virus or whatsoever, Game Industry.
+        So in 2021, when it comes to games, it has a great potential. New AAA games have a great community waiting for
+        them. People are waiting 9 years just for a games. As the world changes, many industries be effected by this
+        change. But there is one industry that never will be effected by any kind of threat, virus or whatsoever, Game
+        Industry.
         <div class="soloimage">
             <img src="./images/fall.jpg" alt="fall" width="1200px">
         </div>
-        
+
     </section>
 
 

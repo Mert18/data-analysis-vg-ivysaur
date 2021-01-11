@@ -143,3 +143,12 @@ h2 {
     }
    
 }
+
+.regtitle {
+    margin-top: 2rem;
+    color: white;
+    font-size: 120%;
+}
+span {
+    color: rgba(179, 23, 12, 0.726);
+}
