@@ -1,7 +1,6 @@
 # Video Games Data Analysis Project - Team Ivysaur
 
-![](https://i.pinimg.com/originals/e7/91/72/e79172fef348260adb1de1406b332deb.png | width=100)
-
+<img src="https://i.pinimg.com/originals/e7/91/72/e79172fef348260adb1de1406b332deb.png" width="250">
 
 ## About Project
 
