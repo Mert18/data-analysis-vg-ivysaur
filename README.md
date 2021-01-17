@@ -2,7 +2,7 @@
 
 <img src="https://i.pinimg.com/originals/e7/91/72/e79172fef348260adb1de1406b332deb.png" width="250">
 
-## About Project
+## About The Project
 
   In this project, our goal is to make a proper analysis of video game industry between 1960-2016.  We reproduced the raw data and made some readable and understandable graphs. With the help of the dataset, we found answers to certain questions. I hope you find something useful in the project.
   
@@ -34,5 +34,5 @@
   
   ![Screenshot](/condaactivate.png)
   
-  5.Now you can use project. With ```jupyter-notebook```, open the project and start using.
+  5.Now you can use the project. With ```jupyter-notebook```, open the project and start using.
    
