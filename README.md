@@ -30,7 +30,7 @@
   
   ![Screenshot](/condaenvcreate.png)
   
-  4.You are successfully installed the environment. Using ```conda activate vgs```, activate the environment.
+  4.You have successfully installed the environment. Using ```conda activate vgs```, activate the environment.
   
   ![Screenshot](/condaactivate.png)
   
