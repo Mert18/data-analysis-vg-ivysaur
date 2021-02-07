@@ -1,12 +1,12 @@
-# Video Games Data Analysis Project - Team Ivysaur
+# Video Games Data Analysis Project - Ivysaur
 
 <img src="https://i.pinimg.com/originals/e7/91/72/e79172fef348260adb1de1406b332deb.png" width="250">
 
 ## About The Project
 
-  In this project, our goal is to make a proper analysis of video game industry between 1960-2016.  We reproduced the raw data and made some readable and understandable graphs. With the help of the dataset, we found answers to certain questions. I hope you find something useful in the project.
+  In this project, my goal is to make a proper analysis of video game industry between 1960-2016.  I reproduced the raw data and made some readable and understandable graphs. With the help of the dataset, I found answers to certain questions. I hope you find something useful in the project.
   
-  The dataset we use : https://www.kaggle.com/gregorut/videogamesales
+  The dataset I use : https://www.kaggle.com/gregorut/videogamesales
   
   
   ## Installation
